@@ -12,7 +12,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="font-bold text-xl text-primary">Семейный Гостевой Дом</div>
+            <div className="font-bold text-xl text-primary">🌟 Гостеприимный Оазис</div>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-gray-600 hover:text-primary transition-colors">О нас</a>
               <a href="#rooms" className="text-gray-600 hover:text-primary transition-colors">Номера</a>
@@ -36,12 +36,12 @@ const Index = () => {
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Семейный Отдых
+            Добро пожаловать в
             <br />
-            <span className="text-blue-300">Мечты</span>
+            <span className="text-blue-300">Гостеприимный Оазис</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 animate-fade-in">
-            12 просторных номеров, современный бассейн и атмосфера уюта для незабываемого семейного отдыха
+            Ваш персональный уголок комфорта и уюта. Эксклюзивный дизайн, персонализированный сервис и новый стандарт гостеприимства
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
             <Button size="lg" className="text-lg px-8 py-6">
@@ -61,27 +61,28 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">О нашем гостевом доме</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">Что делает нас особенными? ✨</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Мы создали идеальное место для семейного отдыха, где комфорт сочетается с современным дизайном. 
-                Наш гостевой дом предлагает 12 просторных номеров, каждый из которых продуман до мельчайших деталей.
+                В мире, где выбор отелей кажется бесконечным, мы гордимся быть уникальными. 
+                Наш гостевой дом – это не просто место для ночлега, это ваш персональный уголок комфорта, 
+                где современный интерьер создан с любовью к деталям.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="flex items-center space-x-3">
-                  <Icon name="Users" className="text-primary" size={24} />
-                  <span className="text-gray-700">Семейный отдых</span>
+                  <Icon name="Sparkles" className="text-primary" size={24} />
+                  <span className="text-gray-700">Эксклюзивный дизайн</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Icon name="Wifi" className="text-primary" size={24} />
-                  <span className="text-gray-700">Бесплатный Wi-Fi</span>
+                  <Icon name="MapPin" className="text-primary" size={24} />
+                  <span className="text-gray-700">Локация мечты</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Icon name="Car" className="text-primary" size={24} />
-                  <span className="text-gray-700">Парковка</span>
+                  <Icon name="Heart" className="text-primary" size={24} />
+                  <span className="text-gray-700">Персонализированный сервис</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Icon name="Coffee" className="text-primary" size={24} />
-                  <span className="text-gray-700">Завтрак</span>
+                  <Icon name="Crown" className="text-primary" size={24} />
+                  <span className="text-gray-700">Комфорт и роскошь</span>
                 </div>
               </div>
             </div>
@@ -255,9 +256,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Семейный Гостевой Дом</h3>
+              <h3 className="text-xl font-bold mb-4">🌟 Гостеприимный Оазис</h3>
               <p className="text-gray-400 mb-4">
-                Современный гостевой дом для незабываемого семейного отдыха
+                Новый стандарт гостеприимства и персонального комфорта
               </p>
               <div className="flex space-x-4">
                 <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
@@ -301,7 +302,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Семейный Гостевой Дом. Все права защищены.</p>
+            <p>&copy; 2024 Гостеприимный Оазис. Все права защищены.</p>
           </div>
         </div>
       </footer>
